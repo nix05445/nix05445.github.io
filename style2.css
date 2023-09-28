@@ -1,0 +1,33 @@
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3 {
+    border-bottom-style: dotted;
+}
+p3 {
+    color:grey;
+    font-size: 2rem;
+}
+td {
+    color: rgb(82, 177, 236);
+    background-color: rgb(217, 217, 217);
+    font-size: 1.1rem;
+}
+ul {
+    font: italic bold 2rem Arial;
+    background-color: lightskyblue;
+}
+
+.textbox {
+    animation: slide-up 2s;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
